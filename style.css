@@ -1,0 +1,134 @@
+body {
+    background-color: #e6eff6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    box-shadow: 3px 3px 10px grey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+main {
+    width: 480px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.message {
+    background-color: white;
+    width: 375px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 3px 3px 10px grey;
+
+}
+
+.offer {
+    background-color: #2bb3b1;
+    width: 375px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.whyus {
+    background-color: #4abebd;
+    width: 375px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;color: white;
+    border-bottom-right-radius: 10px;
+    
+}
+
+
+.price {
+    display: flex;
+    flex-direction: row;
+}
+
+.pm {
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #6cdad9;
+    
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #bfdf32;
+    color: white;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1280px ) {
+    body{
+        margin-top: 50px;
+    }
+    main {
+        width: 650px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    
+    }
+
+    .message {
+        background-color: white;
+        width: 650px;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 50px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    
+    }
+
+   .container {
+    display: flex;
+    flex-direction: row;
+   }
+
+   .offer {
+    background-color: #2bb3b1;
+    width: 325px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.whyus {
+    background-color: #4abebd;
+    width: 325px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;color: white;
+    border-bottom-right-radius: 10px;
+    
+}
+}
